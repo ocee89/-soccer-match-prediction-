@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soccer Match Prediction</title>
+</head>
+<body>
+	<h1>Soccer Match Prediction</h1>
+	<form>
+		<label for="team1">Choose the home team:</label>
+		<select name="team1" id="team1">
+			<option value="manu">Manchester United</option>
+			<option value="liverpool">Liverpool</option>
+		</select>
+		<label for="team2">Choose the away team:</label>
+		<select name="team2" id="team2">
+			<option value="manu">Manchester United</option>
+			<option value="liverpool">Liverpool</option>
+		</select>
+		<br>
+		<label for="score1">Predict the score:</label>
+		<input type="number" name="score1" id="score1" min="0" max="10">
+		-
+		<input type="number" name="score2" id="score2" min="0" max="10">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
